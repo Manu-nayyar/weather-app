@@ -25,7 +25,7 @@ const Weather = () => {
                         }} />
                     </div>
                 {!City ? (
-                    <p className='error'>No city found</p>
+                    <p className='error'>No city is found</p>
                 ) : (
                     <div className="seconddiv">
                         

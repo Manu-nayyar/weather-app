@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Syne:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+   
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins';
+
+}
+.maindiv{
+    height: 28rem;
+    width: 25rem;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+}
+.firstdiv{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.firstdiv input{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 2rem;
+    
+    text-align: center;
+    border-radius: 45px;
+    background: #f8f7f7;
+
+}
+.seconddiv{
+    height: 20rem;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.seconddiv svg{
+    color: yellow;
+}
+h2{
+    font-weight: 600;
+    font-size: 60px;
+    font-family:'Syne';
+    color: crimson;
+    margin: 1rem auto;
+    z-index: 1000;
+}
+h3{
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 30px;
+    color: #333;
+    margin: 1rem auto;
+    z-index: 1000;
+}
+p{
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 18px;
+    color:#2e2e2e;
+    margin: 0.5rem auto;
+    z-index: 1000;
+}
+
+
+
